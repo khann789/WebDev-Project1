@@ -1,0 +1,235 @@
+#body {
+    background-color: white;
+    width: 1530px;
+    height: 1040px;
+    position:absolute;
+    
+    /* top: -520px;
+    left: 1600px; */
+}
+
+#photo {
+    position: absolute ;  
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    height: 1040px;
+    /* background-color: #f0f0f0;  */
+    border: 1px none #000;
+    background-image: url("/new.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    border-radius: 20px;
+  
+  }
+
+
+#div1 {
+    /* margin-top: 400px; */
+    padding-left: 8px;
+    padding-top: 1px;
+    padding-right: 8px;
+    border-radius: 5px;
+    width: 400px;
+    height: 635px;
+    /* padding-top: 100px; */
+    /* border: 1px solid #452c63; */
+    margin-top: 200px;
+    margin-left: 175px;
+    background-color: #E6E6FA;
+    /* margin-bottom: 35px; */
+    display: inline-block;
+    
+}
+
+#inputbar {
+    font-family: monospace;
+    width: 390px;
+    height: 32px;
+    padding: 10px, 0px, 10px, 10px;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+#checkbox:hover {
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    animation:forwards;
+    transform: scale(2);
+}
+
+#email {
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#password {
+    font-family: monospace;
+    font-size: 15px;
+    /* word-spacing: 225px; */
+    /* display: flex;
+    justify-content: flex-start; */
+     
+}
+/* Iwashere */
+#passworddiv {
+    /* display: inline-flex;
+    justify-content: space-between; */
+    
+}
+
+#fg {
+    font-family: monospace;
+    /* word-spacing: none; */
+    text-decoration: none;
+    font-size: 12px;
+    float: right;
+    /* display: flex;
+    justify-content: flex-end; */
+    /* right: 0px; */
+
+
+}
+
+#pwordbar {
+    font-family: monospace;
+    width: 390px;
+    height: 32px;
+    padding: 10px, 0px, 10px, 10px;
+    gap: 10px;
+    left: 0px;
+    border-radius: 8px;
+    
+}
+
+#Welcome {
+    font-family: monospace;
+
+}
+
+#cred  {
+    font-family: monospace ;
+    font-size:medium;
+    
+}
+
+#remtext {
+    font-size:medium;
+     ;
+} 
+
+#checkdiv {
+    font-family: monospace   
+}
+
+#loginbutton {
+    width: 400px;
+    height: 32px;
+    background-color: rgb(51, 156, 51);
+    border-radius: 8px;
+    font-stretch:extra-expanded;
+}
+
+
+
+
+#rightside {
+    top: 0px;
+    position: relative;
+    height: 200vh;
+}
+
+.linetext {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.linetext::before,
+.linetext::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.linetext::before {
+    margin-right: .25em;
+}
+
+.linetext::after {
+    margin-left: .25em;
+}
+
+/* #googlebutton {
+    height: 35px;
+    background-color: whitesmoke;
+    width: 180px;
+    border-radius: 10px;
+    
+}
+
+#applebutton {
+    height: 35px;
+    background-color: whitesmoke;
+    width: 180px;
+    border-radius: 10px;
+    right: 0px;
+
+} */
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#buttonimages {
+    display: flex;
+    justify-content: space-between;
+}
+#image1 {
+    height: 35px;
+    width: 180px;
+    border-radius: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+#image1:hover {
+    transition-property: all;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+    animation:forwards;
+    transform: scale(1.1);
+}
+
+#image2 {
+    height: 35px;
+    width: 180px;
+    border-radius: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+#image2:hover {
+    transition-property: all;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+    animation:forwards;
+    transform: scale(1.1);
+}
+
+
+#footertext {
+    text-align: center;
+}
+
+
+#signup {
+    text-decoration: none;
+    
+}
+
+
